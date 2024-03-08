@@ -1,0 +1,174 @@
+.rightdiv {
+    width: 45%;
+    height: 100%;
+  background-color: white !important;
+
+   /* background-color: rgb(240, 248, 255); */
+    /* background-color: red; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px ;
+}
+.rightdivcontent {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(131, 20, 20); */
+    background-color: rgb(240, 248, 255);
+    /* background-color: red; */
+    /* border-top-left-radius: 25px; */
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px ;
+    border-bottom-right-radius: 25px;
+}
+.rightdivheading {
+    width: 100%;
+    height: 14%;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+}
+
+.rightdivheadingspan1 {
+    width: 55%;
+    height: 100%;
+    padding-top: 5%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    padding-left:5%;
+    letter-spacing: 1px;
+}
+
+#tickimg {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-left: 25px;
+    margin-right: 10px;
+    box-shadow: 0px 10px 14px -3px rgba(145,145,145,0.92);
+}
+
+.borderline2 {
+    width: 83px;
+    height: 5px;
+    background-color: rgb(188, 193, 211);
+    position: absolute;
+    border-radius: 5px;
+    left: 58%;
+}
+
+.datapoint {
+    width: 100%;
+    height: 35%;
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footerdiv {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactdiv {
+    width: 93%;
+    box-shadow: 0px 10px 14px -3px rgba(145,145,145,0.92);
+    border-radius: 8px;
+    height: 80%;
+    background-color: white;
+    padding-right: 50px;
+}
+
+.contactdiv1 {
+    width: 100%;
+    height: 35%;
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    padding-left: 25px;
+    /* padding-right: 30px; */
+    padding-top: 30px;
+    letter-spacing: 1px;
+}
+
+.contactdiv2 {
+    width: 100%;
+    height: 25%;
+    /* color: rgb(82, 82, 82); */
+    color: rgb(87, 82, 82);
+    font-family: Montserrat, system-ui,"Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    /* letter-spacing: 1px; */
+}
+
+.contactdiv3 {
+    width: 100%;
+    height: 40%;
+    color: rgb(62, 60, 60);
+    font-family: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 24px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+    line-height: 1.2em;
+}
+
+.datapoint1 {
+    display: flex;
+}
+
+.datapoint1 h1 {
+    font-family: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(131, 130, 130);
+    padding-top: 2px;
+
+}
+
+.datapoint2 {
+    display: flex;
+}
+
+.datapoint2 h1 {
+    color: rgb(131, 130, 130);
+    font-family: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 2px;
+
+}
+
+.datapoint3 {
+    display: flex;
+}
+
+.datapoint3 h1 {
+    font-family: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(131, 130, 130);
+    padding-top: 2px;
+}
+
+#contactlinks{
+    /* color: rgb(46,49,145);    */
+    color: rgb(51, 57, 121);
+}

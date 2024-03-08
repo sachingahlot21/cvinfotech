@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden;
+ */
+}
+
+#navbar {
+    display: flex;
+    width: 100vw;
+    /* border-bottom: 1px solid gainsboro; */
+    height: 30vh;
+    overflow: hidden;
+}
+
+.logonavbar {
+    width: 25vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#navlink {
+    color: black;
+    text-decoration: none;
+}
+
+.btnnavbar {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.btnnavbar1 {
+    display: flex;
+    width: 75%;
+    height: 50%;
+    background-color: white;
+
+}
+
+.navbtn {
+    font-size: 19px;
+    font-family: sans-serif;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.logo {
+    width: 185px;
+    height: 45px;
+}
+
+#quotebtn {
+    width: 290px;
+    height: 60px;
+    background-color: white;
+    color: rgb(46, 49, 145);
+    font-size: 18px;
+    font-weight: 600;
+    border-style: none;
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+    margin-top: 48px;
+
+}
+
+#contactusdiv {
+    width: 100vw;
+    height: 800px;
+    /* background-color: white; */
+    /* background-color: rgb(240, 248, 255); */
+    display: flex;
+    /* box-shadow: 1px 4px 26px -6px rgba(0,0,0,0.75); */
+    /* box-shadow: 1px 0px 5px -2px rgba(0,0,0,0.75); */
+    /* box-shadow: 3px 7px 19px 2px rgba(0,0,0,0.75); */
+    box-shadow: -2px 3px 31px -6px rgba(0,0,0,0.43);
+    margin-bottom: 50px;
+    padding-left: 1px;
+    padding-right: 1px;
+    overflow: hidden;
+
+    border-top-left-radius: 20px;
+     border-top-right-radius: 25px;
+     border-bottom-left-radius: 20px ;
+border-bottom-right-radius: 25px;  
+   
+}
+
+
+
+.leftdiv {
+    width: 55%;
+    height: 100%;
+    background-color: rgb(240, 248, 255);
+    
+    overflow: hidden;
+     /* border-top-left-radius: 25px;
+     border-top-right-radius: 25px;
+     border-bottom-left-radius: 25px ; */
+   
+}
+.leftdivcontent{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px ;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+     border-top-left-radius: 20px;
+     border-top-right-radius: 20px;
+     border-bottom-left-radius: 20px ;
+}
+.leftdivheading {
+    width: 100%;
+    height: 14%;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    flex-wrap: wrap;
+   padding-left: 7%;
+}
+
+.leftdivheadingspan1 {
+    width: 55%;
+    height: 100%;
+    align-items: center;
+    padding-top: 5%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.leftdivheadingspan2 {
+    width: 45%;
+    height: 100%;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    padding-top: 6%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.personalinfodiv {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.namediv {
+    margin-left: 6%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    width: 43%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.namediv>input {
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: large;
+    text-indent: 15px;
+    letter-spacing: 2px;
+    background-color: rgb(244, 245, 249);
+    border-radius: 6px;
+    border-style: none;
+}
+
+.maildiv {
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    width: 43%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellowgreen; */
+
+}
+
+.maildiv>input {
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: large;
+    text-indent: 15px;
+    letter-spacing: 2px;
+    background-color: rgb(244, 245, 249);
+    border-radius: 6px;
+    border-style: none;
+    /* border: 0.5px solid gainsboro; */
+
+}
+
+.subjectdiv {
+    margin-left: 6%;
+    margin-bottom: 2%;
+    width: 43%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellowgreen; */
+
+}
+
+.subjectdiv>select {
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: large;
+    text-indent: 8px;
+    letter-spacing: 2px;
+    background-color: rgb(244, 245, 249);
+    border-radius: 6px;
+    border-style: none;
+    /* border: 0.5px solid gainsboro; */
+
+}
+
+.pnumberdiv {
+    margin-left: 3%;
+    margin-bottom: 2%;
+    width: 43%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: yellowgreen; */
+
+}
+
+.pnumberdiv>input {
+    width: 100%;
+    height: 100%;
+    color: rgb(50, 50, 50);
+    font-size: large;
+    text-indent: 15px;
+    letter-spacing: 2px;
+    background-color: rgb(244, 245, 249);
+    border-radius: 6px;
+    border-style: none;
+    /* border: 0.5px solid gainsboro; */
+
+
+
+}
+
+::placeholder {
+    color: gray;
+    opacity: 1;
+    /* Firefox */
+    margin-left: 10px;
+
+}
+
+.namediv span {
+    margin-right: 210px;
+    color: palegreen;
+    font-family: sans-serif;
+    color: rgb(150, 145, 151);
+}
+
+.budgetdiv {
+    width: auto;
+    height: 15%;
+    /* background-color: blue; */
+}
+
+.budgetdiv2 {
+    width: 100%;
+    height: auto;
+
+}
+
+.budgetoptions {
+    display: flex;
+  
+    height: auto;
+    justify-content: space-between;
+    margin-left: 6%;
+    margin-right: 8%;
+}
+
+
+#budgetoption1 {
+    /* background-color: red; */
+    border: 1px solid rgb(233, 229, 229);
+    padding-top: 22px;
+    text-align: center;
+    padding: auto;
+    /* border-radius: 6px; */
+    font-family: sans-serif;
+    background-color: rgb(46, 49, 145);
+    color: white;
+    width: 110px;
+    height: 62px;
+}
+
+#budgetoption2 {
+    /* background-color: red; */
+    border: 1px solid rgb(233, 229, 229);
+    padding-top: 22px;
+    text-align: center;
+    border-radius: 6px;
+    font-family: sans-serif;
+    background-color: white;
+    color: rgb(106, 104, 104);
+    max-height: 70px;
+    width: 150px;
+    height: 62px;
+}
+
+
+#budgetoption3 {
+    /* background-color: red; */
+    padding-top: 22px;
+    text-align: center;
+    border: 1px solid rgb(233, 229, 229);
+    border-radius: 6px;
+    font-family: sans-serif;
+    background-color: white;
+    color: rgb(106, 104, 104);
+    max-height: 70px;
+    width: 150px;
+    height: 62px;
+}
+
+#budgetoption4 {
+    /* background-color: red; */
+    padding-top: 22px;
+    text-align: center;
+    border: 1px solid gainsboro;
+    border-radius: 6px;
+    font-family: sans-serif;
+    background-color: white;
+    color: rgb(106, 104, 104);
+    max-height: 70px;
+    width: 150px;
+    height: 62px;
+}
+
+#budgetoption5 {
+
+    padding-top: 22px;
+    text-align: center;
+    border: 1px solid rgb(233, 229, 229);
+    border-radius: 6px;
+    font-family: sans-serif;
+    background-color: white;
+    color: rgb(106, 104, 104);
+    width: 120px;
+    height: 62px;
+}
+
+
+
+.budgetdiv h1 {
+    font-family: sans-serif;
+    margin-left: 6%;
+    font-size: 22px;
+}
+
+.budgetheading {
+    margin-bottom: 25px;
+    color: rgb(59, 59, 59);
+
+}
+
+.briefdiv {
+    /* width: auto; */
+    height: 25%;
+    /* background-color: rgb(120, 120, 125); */
+}
+
+.briefdiv textarea {
+    resize: none;
+    margin-left: 6%;
+    margin-right: 6%;
+    width: 89%;
+    height: 80%;
+    margin-top: 3%;
+    font-size: large;
+    background-color: rgb(244, 245, 249);
+    border-style: none;
+}
+
+
+/* submit btn css */
+.submitbtn {
+    width: auto;
+    height: 10%;
+    background-color: white;
+}
+
+.submitbtn button {
+    width: 224px;
+    height: 57px;
+    color: white;
+    background-color: rgb(46, 49, 145);
+    border-style: none;
+    margin-left: 6%;
+    font-size: large;
+    font-family: sans-serif;
+    margin-top: 3%;
+    letter-spacing: 1px;
+}
+
+
+.borderline {
+    width: 83px;
+    height: 5px;
+    background-color: rgb(188, 193, 211);
+    position: absolute;
+    border-radius: 5px;
+    /* left: 65px; */
+    left: 4%;
+}
+
+.briefmsg {
+    color: black;
+}
