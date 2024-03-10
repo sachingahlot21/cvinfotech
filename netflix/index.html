@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="div2.css">
+</head>
+
+<body>
+    <div id="maindiv">
+        <div id="div1">
+            <div class="homepart1">
+                <div class="navbar">
+                    <div class="navbardiv">
+                        <div class="navlogo">
+                            <img src="logofinal.png" alt="no logo">
+                        </div>
+                        <div class="navbtn">
+                            <div class="navbtnlist">
+                                <div class="navbtn1">
+                                    <select class="navselectbtn">
+                                        <option>English</option>
+                                        <option>Hindi</option>
+                                    </select>
+                                </div>
+                                <div class="navbtn2">
+                                    <button class="navsigninbtn">Sign In</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="homecontent">
+                    <div class="homecontent1">
+                        <div class="homecontentheading">
+                            <p>Unlimited movies, TV shows and more</p>
+                        </div>
+
+                        <div class="homecontentplan">
+                            <div class="homecontentplan1">
+                                <p>Starts at ₹149. Cancel anytime.</p>
+                            </div>
+                            <div class="homecontentplan2">Ready to watch? Enter your email to create or restart your
+                                membership.</div>
+                        </div>
+                        <div class="homecontentmail">
+                            <div class="homecontentmail1"><input type="text" placeholder="Email address"></div>
+                            <div class="homecontentmail2"><button>Get Started &gt;</button></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="div2">
+
+            <div class="div2content">
+                <div class="div2heading">
+                    <h1>Trending Now</h1>
+                </div>
+                <div class="div2subhead">
+                    <div class="div2btns">
+                        <div class="div2btn1">
+                            <select>
+                                <option>
+                                    India
+                                </option>
+                                <option>
+                                    Global
+                                </option>
+                            </select>
+                        </div>
+                        <div class="div2btn2">
+                            <select>
+                                <option>
+                                    Movies
+                                </option>
+                                <option>
+                                    TV Shows
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="div2maincontent">
+                    <div id="btndiv1">
+                        <button onclick="handlePrevBtn()" id="div2contentbtn1" class="div2contentbtn1">&lt;</button>
+                    </div>
+                   
+                    <ul id="div2ul" class="div2contentul">
+                        <li>
+                            <span class="numbdiv1">1</span>
+                            <div class="imgdiv1">
+                                <img src="https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABZvJh2od9WUZ3xqD6Oax_-qCmKEUi_-5zGjxuN8L_ieC5kNFR_e1iHlEcG-ftZa087ng7NfX406enlvdnF2e4gM2sOzPgOlza-ClMp8x2s06csIP6sQRVPuarI8LpmlHo9w83B0-OxtivXvIJzCBZSQegPdUb4AqRZDTbQFglR1iMlBJJ5fci1ySjqB1cccJqevYguMv0ECzy_QVAQuHU8Rf7sKmbnBI1D0HWHCeLsywtwMEV-mK_hPR8TzqBEgkglZP_qxGs3wv-9sGZUOt8HODgzT4jUbZHi2zYVdXNAuj1ei7bBruLI7tAzhjLMxseluwXWKyak7_uhmOsWO9efc.jpg?r=dc6" alt="no img">
+                            </div>
+                        </li>
+                        <li>
+                            <span class="numbdiv1">2</span>
+                            <div class="imgdiv1">
+                                <img src="https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABVUbKypb1sOtcEuS8Bl5ZZKeaitKqeQqfvLsMTCxYXnTELedv54vKA2Bigu2C4iOai-tFj8WzuGsI0gEHuNuL0ADWw5ujmWl5PoE28vmYj1cJkBVgqRwExjLjsxyspFBeCPc9A4dzXH-b7-VLAnOvTUD7HCt03_VrJHYWqAFGGMuIlJoeTG3wbOZsrZxkRY0vQsJbS_c7Ra7qGui1PpEASqSHffR_1ydxEVjGea8RMksK-nIjsciX6aK2bMYdQPycGEalb1_1yNbq9fnUpRcxdi4jLLLXWU934z6pjWfIfFOh87cggZbrB49.jpg?r=e98" alt="no img">
+                            </div>
+                        </li>
+                        <li>
+                            <span class="numbdiv1">3</span>
+                            <div class="imgdiv1">
+                                <img src="https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABQp5uRtFLNZf3nUrpw_Bvr000_e1gPBcdHEhFpNToXiDQNOKa7GgjDQDhGe1mOpHUd9jxuQwI_tviGOcT5Je5S_fK-nrIxt-Py1kFb2KbrhASwUtqifZgaC_CtuzIU1Vm3h7-AJE9rVglHTDThOn5kBn7z-BnjcFDls.jpg?r=0f6" alt="no img">
+                            </div>
+                        </li>
+                        <li>
+                            <span class="numbdiv1">4</span>
+                            <div class="imgdiv1">
+                                <img src="https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABSqZqa4-Ik-H94SvhmsbB5oAQ1ZgEzvMUao69lmH6Yux7mcah8OFCY4UhscqWdzeBjUBka6EhMdexMpvq5ZWX16x901RGKibtxyKqCFq0vXam7xwvbfAlzXh2fBbuNSm3ZQeWpV1gE7A8YB2JA0Nlzc50_jzSeoewWjMwHd8X4T_14N6FnQZA1XC9Q2G0nT6LVfSkyDx8pxAE0KEBJu47anNkxTyN1auc4HNOZ3lPNQwqIAMCb_x9YXQxHRUQT_-NqSa2rr5TK1QYn43oluQGMVJ6WQ9pDE6_Q5WiUBPNb3VWRzw2rGAm_BxTdzhz9mcpy-pyisQSpZAXroEqK7oyx8.jpg?r=997" alt="no img">
+                            </div>
+                        </li>
+                        <li>
+                            <span class="numbdiv1">5</span>
+                            <div class="imgdiv1">
+                                <img src="https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABemudMtjdFmxSxSv0HBpoV5U4EXogPCIuf1_spf85XNCYSJ6fu99LIVho9w3nmIRiEFphWWgMLY4WlhNrkdHX2JUaMonYsUVBOl0EjEa9S2X4CUV7yISlAbX9l8nBH5rBO8wBBtVbqIkVOboA_5zAm45OZ2N1wMB9JkGPvyGyGIAc91qqU4D0vPDggZyiMsyQUQ8_GIYM2T4LvNYILuipZhGJoLlbCbeu-Uc_VVgbyEYVc-fqmrRAMMIMfkcgb4A2fEH3WQ2nurMqTb0Dcc3I_KBoTSk.jpg?r=bad" alt="no img">
+                            </div>
+                        </li>
+                        <li>
+                            <span class="numbdiv1">6</span>
+                            <div class="imgdiv1">
+                                <img src="https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABdfrc7RkViD9RjWx4RvYHxjmhC_dGbIeOA2NPit-UBoAYEEFoeef2miF6Ksuni1M7BWTQhQOO0qp2ncSHnswrt3Iy98QgCHVREVVhbOJZkgcPn2pC8MSCUtYeRDRXCgIkM2JhcmNicCz_CWXkXbvSZkW1hODeGZ1h2Yl-8X_4eKDkxVJ6i20AAsgte7SZVBnBHI5dqQJY8p42Q3EZGb1_rJGB6ml3Q2ftUO7qZ-19VBpLMuhBieJlPSGVzdxnNfhtBd3lvdKnUEzBe02ESP5fQg6XV5KkDi2o3HtOfMKp8vZ95_dTRTKhiWOJZnaiMPSlF9vyKiFT8h4EuAyLt4OwFE.jpg?r=5fa" alt="no img">
+                            </div>
+                        </li>
+                        <li>
+                            <span class="numbdiv1">7</span>
+                            <div class="imgdiv1">
+                                <img src="https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABaDLasvXsR7Oiqnd_Re2z26KpTcDRedRghZcl0PcLas20UWjGOAmLwQNjR1CQyOOaFfnUFOJlSiATE0ZH2nrV94HW5Ov7HvY5QRF3Btleb2SuaztMHZum7nijJjBSyH_h7oj2N_XYDMz9MDibOkPd7NySsHz5myqIynuFiqtCwnOSp84A4__fBaAkHsBPnrGUFRhjTXJtazBUpn54mwo2Ze0UfsRyao-iQklomGpE5Vmv7q0BAI_84tGkhkATtjiUktBAP25GFljZ9VhfGh1t7wsGv3oAhIUXbYHz28E3CXUWs1z8X_wg1X_.jpg?r=7ab" alt="no img">
+                            </div>
+                        </li>
+                        <li>
+                            <span class="numbdiv1">8</span>
+                            <div class="imgdiv1">
+                                <img src="https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABdYKwu874gDjQqQ9b2KMURPCg2BFLIqNIj3D5sPFrDLp__i5skIpYytD2qvfTqd7k7l-vP-hD0WLsDqbU4YG0oHqRjV-NNStNwU.jpg?r=ce7" alt="no img">
+                            </div>
+                        </li>
+                        <li>
+                            <span class="numbdiv1">9</span>
+                            <div class="imgdiv1">
+                                <img src="https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABRHhNZoOuR553dP9jX4X_zm4egzUqqhOwfNDPUWNZLs74smSqSGsk_opTGXkkVhZEb1zjURkLD1a5jecemh3RgaDnXkOpfesn_c.jpg?r=896" alt="no img">
+                            </div>
+                        </li>
+                        <li>
+                            <span class="numbdiv1">10</span>
+                            <div class="imgdiv1">
+                                <img src="https://occ-0-2590-2186.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABa-YHG0C7q_mTFcZJxZxW9QF0BrNoXBXqrtuyheb40nSizlnxHR8TvZ4iH12_Wc2lyRzdCdFJapWoWiFzF3WZygie5kPQsV1EtA.jpg?r=f73" alt="no img">
+                            </div>
+                        </li>
+                    </ul>
+                    <div id="btndiv2">
+                        <button onclick='handleNextBtn()' id="div2contentbtn2" class="div2contentbtn2">&gt;</button>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
