@@ -6,8 +6,7 @@
 
 .div2content {
     width: 75%;
-    height: 100%;
-    
+    height: 100%;   
     margin: auto;
 }
 
@@ -75,7 +74,7 @@
 }
 
 .div2heading>h1 {
-    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-family:  Helvetica, sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
     color: white;
@@ -201,5 +200,5 @@
     font-weight: 700;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
-        1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+        1px 1px #fff, -1px -1px #fff, 1px -1px #ff0000, -1px 1px #fff;
 }

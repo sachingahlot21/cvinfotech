@@ -1,35 +1,145 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
+    .logo {
+        width: 145px;
+        height: 30px;
+    }
 
+    .logonavbar {
+        margin-left: 20px;
+    }
     #contactusdiv {
         width: 100vw;
-        height: 1600px;
+        height: 1900px;
         display: flex;
         flex-direction: column;
     }
 
+    .borderline2 {
+        width: 83px;
+        height: 5px;
+        background-color: rgb(188, 193, 211);
+        position: absolute;
+        border-radius: 5px;
+        left: 6% !important;
+    }
+
+
     .rightdiv {
-        width: 100%;
-        height: 30%;
-        background-color: rgb(84, 143, 252);
-    }
-    .leftdiv {
-        width: 100vw;
-        height: 50%;
+        width: 100% !important;
+        height: 35% !important;
+        /* background-color: rgb(84, 143, 252); */
+        background-color: yellowgreen;
+        overflow: scroll;
     }
 
 
+    .borderline2 {
+        width: 83px;
+        height: 5px;
+        background-color: rgb(188, 193, 211);
+        position: absolute;
+        border-radius: 5px;
+        left: 5%;
+    }
+
+    /* right div media quaries starts here */
     .rightdivheading {
         width: 100%;
-        height: 15%;
+        height: 10% !important;
         border-bottom: 1px solid gainsboro;
         display: flex;
     }
 
+    .rightdivheadingspan1 {
+        width: 100% !important;
+        height: 100%;
+        padding-top: 2% !important;
+        margin: auto;
+    }
 
-   
+    .rightdivcontent {
+        width: 100%;
+        height: 100% !important;
+        background-color: rgb(131, 20, 20);
+        background-color: rgb(240, 248, 255);
+        /* background-color: red; */
+        /* border-top-left-radius: 25px; */
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .contactdiv1 {
+        width: 100%;
+        height: 25% !important;
+        font-family: sans-serif;
+        font-size: 24px !important;
+        /* background-color: aqua; */
+        font-weight: 400;
+        padding-left: 25px;
+        /* padding-right: 30px; */
+        padding-top: 10px !important;
+        letter-spacing: 1px;
+    }
+
+    .contactdiv2 {
+        width: 100%;
+        height: 35% !important;
+        /* color: rgb(82, 82, 82); */
+        color: rgb(87, 82, 82);
+        font-family: Montserrat, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 21px !important;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        padding-left: 30px;
+        padding-top: 2px !important;
+        /* background-color: palevioletred !important; */
+        /* letter-spacing: 1px; */
+    }
+
+    .contactdiv3 {
+        width: 100%;
+        height: 40%;
+        color: rgb(62, 60, 60);
+        font-family: Montserrat, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 22px !important;
+        font-style: normal;
+        font-weight: 350;
+        line-height: 24px;
+        padding-left: 30px;
+        padding-top: 0px !important;
+        padding-bottom: 30px;
+        letter-spacing: 1px;
+        line-height: 1.2em;
+    }
+
+    .footerdiv {
+        width: 100%;
+        height: 55% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contactdiv {
+        width: 100% !important;
+        box-shadow: 0px 10px 14px -3px rgba(145, 145, 145, 0.92);
+        border-radius: 8px;
+        height: 80% !important;
+        background-color: white;
+        padding-right: 4px !important;
+    }
+
+    /* left div media quaries starts here */
+    .leftdiv {
+        width: 100%;
+        height: 65%;
+    }
+
     .leftdivheading {
         width: 100%;
-        height: 10%;
+        height: 8%;
         border-bottom: 1px solid gainsboro;
         display: flex;
         flex-direction: column;
@@ -40,23 +150,26 @@
         height: 50%;
         margin-right: 2%;
         font-size: 25px;
+        padding-top: 2%;
     }
 
     .leftdivheadingspan2 {
         width: 100%;
         height: 50%;
+        padding-top: 2%;
     }
 
     .personalinfodiv {
         width: 100%;
         height: 30%;
         display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
     }
 
     .namediv {
         width: 90%;
-        height: 10%;
+        height: 15%;
 
         /* margin-left: 5%;
         margin-top: 6%;
@@ -65,8 +178,9 @@
 
     .maildiv {
         width: 90%;
-        height: 10%;
+        height: 15%;
         margin-top: 0;
+        margin-left: 6%;
         /* margin-left: 5%;
         margin-top: 6%;
         margin-bottom: 1%; */
@@ -74,7 +188,7 @@
 
     .subjectdiv {
         width: 90%;
-        height: 10%;
+        height: 15%;
         /* 
         
         margin-left: 5%;
@@ -84,9 +198,9 @@
 
     .pnumberdiv {
         width: 90%;
-        height: 10%;
+        height: 15%;
+        margin-left: 6%;
         /* 
-        
         margin-left: 5%;
         margin-top: 6%;
         margin-bottom: 3%; */
@@ -94,12 +208,17 @@
 
     .budgetdiv {
         width: auto;
-        height: 30%;
+        height: 40%;
     }
 
     .budgetdiv2 {
         width: 100%;
-        height: auto;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+        /* justify-content: space-around; */
+
 
     }
 
@@ -108,39 +227,52 @@
         display: flex;
         width: 90%;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
+        /* justify-content: space-between; */
         margin-left: 4%;
         margin-right: 4%;
     }
 
     #budgetoption1 {
         width: 100%;
-        height: 20%;
-        margin-bottom: 2%;
+        height: 25%;
+        margin-bottom: 24px;
+        padding-bottom: 22px;
+
     }
 
     #budgetoption2 {
         width: 100%;
         height: 20%;
-        margin-bottom: 2%;
+        margin-bottom: 24px;
+        padding-bottom: 22px;
     }
 
     #budgetoption3 {
         width: 100%;
         height: 20%;
-        margin-bottom: 2%;
+        margin-bottom: 24px;
+        padding-bottom: 22px;
     }
 
     #budgetoption4 {
         width: 100%;
         height: 20%;
-        margin-bottom: 2%;
+        margin-bottom: 24px;
+        padding-bottom: 22px;
     }
 
     #budgetoption5 {
         width: 100%;
         height: 20%;
-        margin-bottom: 2%;
+        margin-bottom: 24px;
+        padding-bottom: 22px;
+    }
+
+    .briefdiv {
+        /* width: auto; */
+        height: 15%;
+        /* background-color: rgb(120, 120, 125); */
     }
 
     .btnnavbar {
@@ -151,7 +283,7 @@
     #navbar {
         display: flex;
         width: 100vw;
-        border-bottom: 1px solid gainsboro;
+        /* border-bottom: 1px solid gainsboro; */
         height: 10vh;
 
     }
@@ -166,14 +298,244 @@
 
     }
 
+    .submitbtn {
+        width: auto;
+        height: 6%;
+        background-color: white;
+    }
+
+    .submitbtn button {
+        width: 224px;
+        height: 57px;
+        color: white;
+        background-color: rgb(46, 49, 145);
+        border-style: none;
+        margin-left: 6%;
+        font-size: large;
+        font-family: sans-serif;
+        margin-top: 1%;
+        letter-spacing: 1px;
+    }
 }
 
-@media screen and (min-width:600px) and (max-width : 1136px) {
+@media screen and (min-width:500px) and (max-width : 763px){
+    .logonavbar {
+        margin-left: 40px;
+    }
+    
+    #contactusdiv {
+        width: 100vw;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftdiv {
+        width: 100%;
+        height: 60%;
+    }
+
+    .rightdiv {
+        width: 100% !important;
+        height: 40% !important;
+        /* background-color: rgb(84, 143, 252); */
+        background-color: yellowgreen;
+        overflow: scroll;
+    }
+
+    .rightdivheadingspan1 {
+        width: 100% !important;
+        height: 100%;
+        padding-top: 2% !important;
+        margin: auto;
+    }
+    .leftdivheadingspan1 {
+        width: 50%;
+        height: 100%;
+        /* margin-right: 2%; */
+        font-size: 25px;
+        padding-top: 6%;
+    }
+
+    .leftdivheadingspan2 {
+        width: 50%;
+        height: 100%;
+        padding-top: 6%;
+    }
+
+    .datapoint1 h1 {
+        font-size: 19px !important;
+        padding-right: 2px;
+    }
+
+    .datapoint2 h1 {
+        font-size: 19px !important;
+        padding-right: 2px;
+    }
+
+    .datapoint3 h1 {
+        font-size: 19px !important;
+        padding-right: 2px;
+
+    }
+    .contactdiv {
+        width: 100% !important;
+        box-shadow: 0px 10px 14px -3px rgba(145, 145, 145, 0.92);
+        padding-right: 0px !important;
+        height: 100% !important;
+        padding-bottom: 10px;
+    }
+    .contactdiv1 {
+        font-size: 28px !important;
+        width: 100%;
+        height: 30% !important;
+        font-family: sans-serif;
+        font-weight: 400;
+        padding-left: 25px !important;
+        /* padding-right: 30px; */
+        margin-top: 10px !important;
+        padding-top: 0px !important;
+        letter-spacing: 1px;
+    }
+    .contactdiv2 {
+        width: 100%;
+        height: 30% !important;
+        font-family: sans-serif;
+        font-size: 20px !important;
+        font-weight: 400;
+        padding-left: 25px !important;
+        /* padding-right: 30px; */
+        padding-top: 5px !important;
+        letter-spacing: 0px;        
+    }
+    .contactdiv3 {
+        width: 100%;
+        height: 35% !important;
+        font-family: sans-serif;
+        font-size: 20px !important;
+        font-weight: 400;
+        padding-left: 25px !important;
+        padding-top: 5px !important;
+        letter-spacing: 0px;
+        padding-top: 5px;
+        padding-bottom: 2px !important;
+      
+    }
+    /* .footerdiv{
+        /* background-color: aqua; */
+    
+    .contactdiv{
+        width: 100% !important;
+        box-shadow: 0px 10px 14px -3px rgba(145, 145, 145, 0.92);
+        border-radius: 8px;
+        height: 90% !important;
+        background-color: white;
+        padding-right: 4px !important;
+    }
+
+    .namediv>input {
+        width: 100%;
+        height: 100%;
+        color: black;
+        font-size: large;
+        text-indent: 15px;
+        letter-spacing: 2px;
+        background-color: rgb(244, 245, 249);
+        border-radius: 6px;
+        border-style: none;
+    }
+    .maildiv>input {
+        width: 100%;
+        height: 100%;
+        color: black;
+        font-size: large;
+        text-indent: 15px;
+        letter-spacing: 2px;
+        background-color: rgb(244, 245, 249);
+        border-radius: 6px;
+        border-style: none;
+    }
+    .subjectdiv>select {
+        width: 100%;
+        margin-left: 2px !important;
+        height: 100%;
+        color: black;
+        font-size: large;
+        /* text-indent: 15px; */
+        letter-spacing: 2px;
+        background-color: rgb(244, 245, 249);
+        border-radius: 6px;
+        border-style: none;
+    }
+    .pnumberdiv>input{
+        width: 100%;
+        height: 100%;
+        color: black;
+        font-size: large;
+        text-indent: 15px;
+        letter-spacing: 2px;
+        background-color: rgb(244, 245, 249);
+        border-radius: 6px;
+        border-style: none;
+    }
+    .borderline2 {
+        width: 83px;
+        height: 5px;
+        background-color: rgb(188, 193, 211);
+        position: absolute;
+        border-radius: 5px;
+        left: 6% !important;
+    }
+    
+#budgetoption1 {
+    width: 90px;
+    margin-right: 3px;
+    height: 62px;
+}
+#budgetoption2 {
+    width: 100px;
+    margin-right: 3px;
+    height: 62px;
+}
+#budgetoption3 {
+    width: 100px;
+    margin-right: 3px;
+    height: 62px;
+}
+#budgetoption4 {
+    width: 100px;
+    margin-right: 3px;
+    height: 62px;
+}
+}
+@media screen and (min-width:763px) and (max-width : 1136px) {
     #contactusdiv {
         width: 100vw;
         height: 1200px;
         /* background-color: aqua; */
 
+    }
+
+    .rightdivheading {
+        width: 100%;
+        height: 12% !important;
+        border-bottom: 1px solid gainsboro;
+        display: flex;
+    }
+
+    .rightdivheadingspan1 {
+        width: 100% !important;
+        height: 100% !important;
+        padding-top: 5%;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        align-items: center;
+        font-family: sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        padding-left: 5%;
+        letter-spacing: 1px;
     }
 
     .leftdivheading {
@@ -236,5 +598,49 @@
         margin-right: 5px;
         margin-bottom: 5px;
     }
+    .btnnavbar{
+        display: none;
+    }
+    #navbar {
+        display: flex;
+        width: 100vw;
+        /* border-bottom: 1px solid gainsboro; */
+        height: 15vh;
+        overflow: hidden;
+    }
+    .menuicon{
+        display: flex;
+    }
 
+}
+
+@media screen and (max-width:400px) {
+    .datapoint1 h1 {
+        font-size: 20px !important;
+    }
+
+    .datapoint2 h1 {
+        font-size: 20px !important;
+    }
+
+    .datapoint3 h1 {
+        font-size: 20px !important;
+
+    }
+
+}
+@media screen and (max-width:810px){
+    .btnnavbar{
+        display: none;
+    }
+    .menuicon{
+        display: flex;
+    }
+    #navbar {
+        display: flex;
+        width: 100vw;
+        /* border-bottom: 1px solid gainsboro; */
+        height: 10vh;
+        overflow: hidden;
+    }
 }

@@ -8,136 +8,148 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="rightdiv.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 
 <body>
-    <div>
-        <!-- navbar -->
-        <div id="navbar">
-            <div class="logonavbar">
-                <img class="logo" src="cvlogo.png" alt="no img">
+    <!-- navbar -->
+    <div id="navbar">
+        <div class="logonavbar">
+            <img class="logo" src="cvlogo.png" alt="no img">
+        </div>
+        <div class="btnnavbar">
+            <div class="navbtn">
+                <span><a id="navlink" href="/home">Home</a>
+                </span>
             </div>
-            <div class="btnnavbar">
+            <div class="navbtn">
+                <a id="navlink" href="/about">About</a>
+            </div>
+            <div class="navbtn">
+                <a id="navlink" href="/service">Service</a>
+            </div>
+            <div class="navbtn">
+                <a id="navlink" href="/customertest">Customer Testimonials</a>
+            </div>
+            <div class="navbtn">
+                <a id="navlink" href="/contactus">Contact Us</a>
+            </div>
+        </div>
+        <div class="menuicon">
+            <span>&#9776;</span>
+        </div>
+    </div>
+    <!-- contact us -->
+    <div id="contactusdiv">
 
-                <div class="navbtn">
-                    <span><a id="navlink"  href="/home">Home</a>
-                    </span>
-                </div>
-                <div class="navbtn">
-                    <a id="navlink"  href="/about">About</a>
-                </div>
-                <div class="navbtn">
-                    <a id="navlink"  href="/service">Service</a>
-                </div>
-                <div class="navbtn">
-                    <a id="navlink"  href="/customertest">Customer Testimonials</a>
-                </div>
-                <div class="navbtn">
-                    <a id="navlink"  href="/contactus">Contact Us</a>
-                </div>
-            </div>
-        </div>
-        <!-- contact us -->
-        <div id="contactusdiv">
-            <div class="leftdiv">
-            
-                <div class="leftdivcontent">
-                    <div class="leftdivheading">
-                        <span class="leftdivheadingspan1">Ready to work with us?</span>
-                        <span class="leftdivheadingspan2"><img
-                                src="https://www.cvinfotech.com/wp-content/uploads/2022/08/lock.svg" alt="no img"
-                                style="margin-right: 8px;">All projects secured by NDA</span>
-                    </div>
-                    <div class="personalinfodiv">
-                        <div class="borderline"></div>
-                        <div class="namediv">
-                            <input type="text" placeholder="Full Name">
-                        </div>
-                        <div class="maildiv">
-                            <input type="text" placeholder="E-Mail">
-                           
-                        </div>
-                        <div class="subjectdiv">
-                            <!-- <input type="text" placeholder="Select Subject"> -->
-                            <select name="" id="" form="">
-                                <option value="">Select Subject</option>
-                                <option value="">Mobile App Development</option>
-                                <option value="">App Development</option>
-                                <option value="">Designing</option>
-                                <option value="">Digital Marketing</option>
-                              </select>
-    
-                        </div>
-                        <div class="pnumberdiv">
-                            <input type="number" placeholder="Phone Number">
-    
-                        </div>
-    
-                    </div>
-                    <div class="budgetdiv">
-                        <div class="budgetheading">
-                            <h1>Budget</h1>
-                        </div>
-                        <div class="budgetdiv2">
-                            <div class="budgetoptions">
-                                <div id="budgetoption1"> &lt; &euro;1k </div>
-                                <div id="budgetoption2"> &gt; &#8364;1k - &#8364;3k </div>
-                                <div id="budgetoption3"> &#8364;3k - &#8364;5k </div>
-                                <div id="budgetoption4">&#8364;5k - &#8364;10k </div>
-                                <div id="budgetoption5"> &lt; &#8364;10k </div>
-                            </div>
-                        </div>
-                    </div>
-    
-    
-                    <div class="briefdiv">
-                        <!-- <input type="text" placeholder="Project briefing" /> -->
-                        <textarea cols="40" rows="10" style="font-size: 18px; font-family: sans-serif;letter-spacing: 1px; border-radius: 8px; padding-top: 12px;color: black; padding-left: 12px;" class="briefmsg" aria-invalid="false"
-                            placeholder="Project briefing" name="your-message"></textarea>
-                    </div>
-                    <div class="submitbtn">
-                        <button>Submit Request</button>
-                    </div>
-                </div>
-            </div>
-            <div class="rightdiv"> 
-                <div class="rightdivcontent">
-                    <div class="rightdivheading">
-                        <span class="rightdivheadingspan1">What's Next?</span>
-                    </div>
-                    <div class="borderline2"></div>
-                    <div class="datapoint">
-                        <div class="datapoint1">
-                            <span><img id="tickimg" src="tickss.png" /></span>
-                            <h1>Discuss your idea under an NDA</h1>
-                        </div>
-                        <div class="datapoint2">
-                            <span><img id="tickimg" src="tickss.png" /></span>
-                            <h1>We review your concept and extrapolate a feasible solution</h1>
-                        </div>
-                        <div class="datapoint3">
-                            <span><img id="tickimg" src="tickss.png" /></span>
-                            <h1>We provide an estimated cost and time to deliver the product</h1>
-                        </div>
-                    </div>
-                    <div class="footerdiv">
-                        <div class="contactdiv">
-                            <div class="contactdiv1">Not sure about your project details yet?</div>
-                            <div class="contactdiv2">If you’re not sure about the details of your project yet, just send us an email or give us a call.</div>
-    
-                            <div class="contactdiv3">Call us on <a id="contactlinks" href="#">+91-8766291838</a>, mail us at <a id="contactlinks" href="#"> business@cvinfotech.com</a> or schedule an appointment.
-                            </div>
-    
-                        </div>
-    
-                    </div>
-                </div>
-            </div>
-           
-        </div>
-        <div style="width: 100vw; height: 50vh; background-color: white;">
+        <div class="leftdiv">
 
+            <div class="leftdivcontent">
+                <div class="leftdivheading">
+                    <span class="leftdivheadingspan1">Ready to work with us?</span>
+                    <span class="leftdivheadingspan2"><img
+                            src="https://www.cvinfotech.com/wp-content/uploads/2022/08/lock.svg" alt="no img"
+                            style="margin-right: 8px;">All projects secured by NDA</span>
+                </div>
+                <div class="personalinfodiv">
+                    <div class="borderline"></div>
+
+                    <!-- form starts here -->
+                    <!-- <form> -->
+                    <div class="namediv">
+                        <input id="fullname" type="text" placeholder="Full Name">
+                    </div>
+                    <div class="maildiv">
+                        <input id="email" type="text" placeholder="E-Mail">
+                    </div>
+                    <div class="subjectdiv">
+                        <!-- <input type="text" placeholder="Select Subject"> -->
+                        <select name="subjects" id="subjects" form="">
+                            <option value="selectsubjects">Select Subject</option>
+                            <option value="mobile_app_development">Mobile App Development</option>
+                            <option value="app_development">App Development</option>
+                            <option value="designing">Designing</option>
+                            <option value="digital_marketing">Digital Marketing</option>
+                        </select>
+
+                    </div>
+                    <div class="pnumberdiv">
+                        <input id="pnumber" type="number" placeholder="Phone Number">
+                    </div>
+
+                </div>
+                <div class="budgetdiv">
+                    <div class="budgetheading">
+                        <h1>Budget</h1>
+                    </div>
+                    <div class="budgetdiv2">
+                        <div class="budgetoptions">
+                            <!-- &lt; &euro;1k -->
+                            <div id="budgetoption1">&lt; &euro;1k</div>
+                            <div id="budgetoption2"> &gt; &#8364;1k - &#8364;3k</div>
+                            <div id="budgetoption3"> &#8364;3k - &#8364;5k </div>
+                            <div id="budgetoption4">&#8364;5k - &#8364;10k </div>
+                            <div id="budgetoption5"> &lt; &#8364;10k </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="briefdiv">
+                    <!-- <input type="text" placeholder="Project briefing" /> -->
+                    <textarea id="brief" cols="40" rows="10"
+                        style="font-size: 18px; font-family: sans-serif;letter-spacing: 1px; border-radius: 8px; padding-top: 12px;color: black; padding-left: 12px;"
+                        class="briefmsg" aria-invalid="false" placeholder="Project briefing"
+                        name="your-message"></textarea>
+                </div>
+                <div class="submitbtn">
+                    <button onclick="handleBtn()">Submit Request</button>
+                </div>
+                <!-- </form> -->
+            </div>
         </div>
+        <div class="rightdiv">
+            <div class="rightdivcontent">
+                <div class="rightdivheading">
+                    <span class="rightdivheadingspan1">What's Next?</span>
+                </div>
+                <div class="borderline2"></div>
+                <div class="datapoint">
+                    <div class="datapoint1">
+                        <span><img id="tickimg" src="tickss.png" /></span>
+                        <h1>Discuss your idea under an NDA</h1>
+                    </div>
+                    <div class="datapoint2">
+                        <span><img id="tickimg" src="tickss.png" /></span>
+                        <h1>We review your concept and extrapolate a feasible solution</h1>
+                    </div>
+                    <div class="datapoint3">
+                        <span><img id="tickimg" src="tickss.png" /></span>
+                        <h1>We provide an estimated cost and time to deliver the product</h1>
+                    </div>
+                </div>
+                <div class="footerdiv">
+                    <div class="contactdiv">
+                        <div class="contactdiv1">Not sure about your project details yet?</div>
+                        <div class="contactdiv2">If you’re not sure about the details of your project yet, just send
+                            us an email or give us a call.</div>
+
+                        <div class="contactdiv3">Call us on <a id="contactlinks" href="#">+91-8766291838</a>, mail
+                            us at <a id="contactlinks" href="#"> business@cvinfotech.com</a> or schedule an
+                            appointment.
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div style="width: 100vw; height: 50vh; background-color: white;">
+
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
