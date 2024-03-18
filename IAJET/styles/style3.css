@@ -1,0 +1,63 @@
+/* aboutus section CSS */
+/* STARTS HERE */
+
+.aboutussection {
+    width: 100vw;
+    height: 585px;
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+}
+
+.aboutussectionimg1 {
+    width: 60%;
+    height: 70%;
+    background-color: yellow;
+    object-fit: cover;
+}
+.aboutussectionimg1 >img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutussectionimg2 {
+    width: 50%;
+    height: 70%;
+    background-color: brown;
+    position: absolute;
+    right: 0;
+    top: 30%;
+}
+.aboutussectionimg2 >img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutussectioncontent {
+    width: 45%;
+    height: 70%;
+    background-color: rgba(244, 244, 248, 1);  
+    position: absolute;
+    left: 30%;
+    top: 16%;
+    padding: 20px;
+}
+.aboutussectionheading{
+    width: 100%;
+    height: 20%;
+}
+.aboutussectionheading >span{
+   font-family: sans-serif;
+}
+.aboutussectionmain{
+    width: 100%;
+    height: 80%;
+    padding-right: 10%;
+}
+.aboutussectionmain p{
+ font-size: 13px;
+ font-family: sans-serif;
+ line-height: 22px;
+ font-weight: 400;
+}

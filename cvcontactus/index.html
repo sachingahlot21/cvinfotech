@@ -8,12 +8,31 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="rightdiv.css">
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 
 <body>
     <!-- navbar -->
+    <div class="menudiv" id="menudivid">
+        <div class="menudiv1">
+
+        </div>
+        <div class="menudivlist">
+            <div class="menudivlistbtn">
+                <button onclick="closeMenuDiv()">X</button>
+            </div>
+            <ul class="menudivul">
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Customer Testimonials</li>
+                <li>Contact Us</li>
+            </ul>
+
+        </div>
+
+    </div>
     <div id="navbar">
+
         <div class="logonavbar">
             <img class="logo" src="cvlogo.png" alt="no img">
         </div>
@@ -35,79 +54,87 @@
                 <a id="navlink" href="/contactus">Contact Us</a>
             </div>
         </div>
-        <div class="menuicon">
+        <div onclick="handleNavlist()" class="menuicon" id="menuiconbtn">
             <span>&#9776;</span>
         </div>
     </div>
     <!-- contact us -->
     <div id="contactusdiv">
 
+
+
         <div class="leftdiv">
+            <form id="contactUsform" class="leftdivcontent" onsubmit="handleForm(event);return false;" name="contactUsForm">
 
-            <div class="leftdivcontent">
-                <div class="leftdivheading">
-                    <span class="leftdivheadingspan1">Ready to work with us?</span>
-                    <span class="leftdivheadingspan2"><img
-                            src="https://www.cvinfotech.com/wp-content/uploads/2022/08/lock.svg" alt="no img"
-                            style="margin-right: 8px;">All projects secured by NDA</span>
-                </div>
-                <div class="personalinfodiv">
-                    <div class="borderline"></div>
+                <div class="leftdivcontent">
+                    <div class="leftdivheading">
+                        <span class="leftdivheadingspan1">Ready to work with us?</span>
+                        <span class="leftdivheadingspan2"><img
+                                src="https://www.cvinfotech.com/wp-content/uploads/2022/08/lock.svg" alt="no img"
+                                style="margin-right: 8px;">All projects secured by NDA</span>
+                    </div>
+                    <div class="personalinfodiv">
+                        <!-- <div class="personalinfodiv"> -->
+                        <div class="borderline"></div>
 
-                    <!-- form starts here -->
-                    <!-- <form> -->
-                    <div class="namediv">
-                        <input id="fullname" type="text" placeholder="Full Name">
-                    </div>
-                    <div class="maildiv">
-                        <input id="email" type="text" placeholder="E-Mail">
-                    </div>
-                    <div class="subjectdiv">
-                        <!-- <input type="text" placeholder="Select Subject"> -->
-                        <select name="subjects" id="subjects" form="">
-                            <option value="selectsubjects">Select Subject</option>
-                            <option value="mobile_app_development">Mobile App Development</option>
-                            <option value="app_development">App Development</option>
-                            <option value="designing">Designing</option>
-                            <option value="digital_marketing">Digital Marketing</option>
-                        </select>
+                        <!-- form starts here -->
+                        <!-- <form> -->
+                        <!-- <form id="contectusdiv"></form> -->
+                        <div class="namediv">
+                            <input id="fullname" name="fullname" type="text" placeholder="Full Name">
+                        </div>
+                        <div class="maildiv">
+                            <input id="email" name="email" type="text" placeholder="E-Mail">
+                        </div>
+                        <div class="subjectdiv">
+                            <!-- <input type="text" placeholder="Select Subject"> -->
+                            <select name="subjects" id="subjects" form="contactUsform">
+                                <option value="selectsubjects">Select Subject</option>
+                                <option value="mobile_app_development">Mobile App Development</option>
+                                <option value="app_development">App Development</option>
+                                <option value="designing">Designing</option>
+                                <option value="digital_marketing">Digital Marketing</option>
+                            </select>
+
+                        </div>
+                        <div class="pnumberdiv">
+                            <input name="phoneno" id="pnumber" type="number" placeholder="Phone Number">
+                        </div>
 
                     </div>
-                    <div class="pnumberdiv">
-                        <input id="pnumber" type="number" placeholder="Phone Number">
-                    </div>
-
-                </div>
-                <div class="budgetdiv">
-                    <div class="budgetheading">
-                        <h1>Budget</h1>
-                    </div>
-                    <div class="budgetdiv2">
-                        <div class="budgetoptions">
-                            <!-- &lt; &euro;1k -->
-                            <div id="budgetoption1">&lt; &euro;1k</div>
-                            <div id="budgetoption2"> &gt; &#8364;1k - &#8364;3k</div>
-                            <div id="budgetoption3"> &#8364;3k - &#8364;5k </div>
-                            <div id="budgetoption4">&#8364;5k - &#8364;10k </div>
-                            <div id="budgetoption5"> &lt; &#8364;10k </div>
+                    <div class="budgetdiv">
+                        <div class="budgetheading">
+                            <h1>Budget</h1>
+                        </div>
+                        <div class="budgetdiv2">
+                            <div class="budgetoptions">
+                                <!-- &lt; &euro;1k -->
+                                <div id="budgetoption1">&lt; &euro;1k</div>
+                                <div id="budgetoption2"> &gt; &#8364;1k - &#8364;3k</div>
+                                <div id="budgetoption3"> &#8364;3k - &#8364;5k </div>
+                                <div id="budgetoption4">&#8364;5k - &#8364;10k </div>
+                                <div id="budgetoption5"> &lt; &#8364;10k </div>
+                            </div>
                         </div>
                     </div>
-                </div>
 
 
-                <div class="briefdiv">
-                    <!-- <input type="text" placeholder="Project briefing" /> -->
-                    <textarea id="brief" cols="40" rows="10"
-                        style="font-size: 18px; font-family: sans-serif;letter-spacing: 1px; border-radius: 8px; padding-top: 12px;color: black; padding-left: 12px;"
-                        class="briefmsg" aria-invalid="false" placeholder="Project briefing"
-                        name="your-message"></textarea>
+                    <div class="briefdiv">
+                        <!-- <input type="text" placeholder="Project briefing" /> -->
+                        <textarea id="brief" cols="40" rows="10"
+                            style="font-size: 18px; font-family: sans-serif;letter-spacing: 1px; border-radius: 8px; padding-top: 12px;color: black; padding-left: 12px;"
+                            class="briefmsg" aria-invalid="false" placeholder="Project briefing"
+                            name="your-message"></textarea>
+                    </div>
+                    <div class="submitbtn">
+                        <button type="submit">Submit Request</button>
+                        <!-- <button  onclick="handleBtn()">Submit Request</button> -->
+                    </div>
+                    <!-- </form> -->
                 </div>
-                <div class="submitbtn">
-                    <button onclick="handleBtn()">Submit Request</button>
-                </div>
-                <!-- </form> -->
-            </div>
+            </form>
         </div>
+
         <div class="rightdiv">
             <div class="rightdivcontent">
                 <div class="rightdivheading">
@@ -145,8 +172,13 @@
             </div>
         </div>
 
+
     </div>
-    <div style="width: 100vw; height: 50vh; background-color: white;">
+
+    <div style="width: 100vw; height: 50vh; background-color: papayawhip;">
+        <div class="userList">
+
+        </div>
 
     </div>
     <script src="script.js"></script>

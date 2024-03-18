@@ -1,0 +1,47 @@
+/* testimonials CSS starts here */
+
+.testimonialsection {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: bisque; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+
+.testimonialSectionCenter {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    background-image: url(../images/testimonialsection/circleAnimation.png);
+    background-size: cover;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+.testimonialSectionCenter>img {
+    width: 90%;
+    height: 75%;
+    margin: auto;
+    object-fit: contain;
+}
+
+.testimonialsectionHeading {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    color: rgba(254, 156, 2, 1);
+    align-items: center;
+    font-family: sans-serif;
+}
+.testimonialsectionContent{
+    width: 100%;
+    height: 30%;
+    background-color: aquamarine;
+}

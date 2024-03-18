@@ -1,0 +1,192 @@
+/* service section CSS */
+/* STARTS HERE */
+.servicesection {
+    display: flex;
+    position: relative;
+    /* height: 150vh; */
+    min-height: 877.5px;
+    
+}
+.servicesection{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgba(255, 255, 255, 1); */
+    background-color:rgba(255, 255, 255, 1);
+    ;
+}
+
+
+.servicesection2 {
+    width: 45%;
+    height: 100%;
+    /* background-color: palevioletred; */
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.ssrightimg {
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    /* background-color: aqua; */
+    object-fit: contain;
+}
+
+.ssrightimg>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.servicesection1 {
+    width: 55%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: end;
+}
+
+.ssleftimg {
+    width: 20vw;
+    height: 292.5px;
+    /* background-color: blueviolet; */
+}
+
+.ssleftimg>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.servicesectionmain {
+    position: absolute;
+    width: 60vw;
+    /* height: 120vh; */
+    height: 702px;
+    /* background-color: peru; */
+    top: 87.75px;
+    left: 13vw;
+    z-index: 10;
+}
+
+.servicesectionmain1 {
+    width: 100%;
+    /* background-color: red; */
+    height: 20%;
+}
+
+.servicesectionmain2 {
+    width: 100%;
+    /* background-color: goldenrod; */
+    height: 80%;
+    display: flex;
+}
+
+.servicesectionp1 {
+    height: 100%;
+    width: 50%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.servicesectionp2 {
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(59, 76, 26); */
+}
+
+.servicesectionh1 {
+    width: 27vw;
+    /* height: 29vh; */
+    background-color: rgba(255, 255, 255, 1);
+    height: 169.65px;
+    padding: 14px;
+    box-shadow: -2px 1px 20px -4px rgba(0,0,0,0.75);
+}
+
+.servicesectionh1>h2 {
+    height: 35.1px;
+    width: 100%;
+    /* height: 6vh; */
+    font-size: 20px;
+    /* background-color: wheat; */
+    color: rgba(254, 156, 2, 1);
+}
+
+.servicesectionh1>p {
+    width: 100%;
+    height: 99.45px;
+    /* height: 17vh; */
+    /* background-color: brown; */
+    font-family: sans-serif;
+    font-size: 12.6px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.servicesectionp2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.servicesectionh {
+    width: 100%;
+    /* height: 68vh; */
+    height: 397.8px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.servicesectionh2 {
+    width: 27vw;
+    /* height: 29vh; */
+    /* background-color: black; */
+    background-color: rgba(255, 255, 255, 1);
+    height: 169.65px;
+    padding: 14px;
+    box-shadow: -2px 1px 20px -4px rgba(0,0,0,0.75);
+}
+
+.servicesectionh2>h2 {
+    height: 35.1px;
+    width: 100%;
+    /* height: 6vh; */
+    font-size: 20px;
+    /* background-color: wheat; */
+    color: rgba(254, 156, 2, 1);
+}
+
+.servicesectionh2>p {
+    width: 100%;
+    /* height: 99.45px; */
+    height: 115px;
+    /* height: 17vh; */
+    /* background-color: brown; */
+    font-family: sans-serif;
+    font-size: 12.6px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.servicesectionhead{
+    width:22vw;
+    /* background-color: aqua; */
+    height: 88px;
+    line-height: 40px;
+}
+.servicesectionhead span{
+   font-family: sans-serif;
+}
+.servicesectionhead h1{
+   font-size: 48px;
+ }
+ .servicesectionheadi{
+    color: rgba(254, 156, 2, 1);
+ }

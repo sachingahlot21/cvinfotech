@@ -1,4 +1,20 @@
 
+
+// function handleform(form) {
+//     // const name = document.forms['contactUsForm'].elements['subjects'].value
+//     const name = form.fullname.value;
+//     let formData = new FormData(form)
+//     let formObj = {}
+
+//     formData.forEach(
+//         function (value , key) {
+//             formObj[key] = value;
+//         }
+//     );
+
+//     console.log(formObj)
+// }
+
 // <
 const btnnxt = document.getElementById('btndiv1')
         btnnxt.style.display = 'none'
