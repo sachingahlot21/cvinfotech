@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="mainDiv">
+            <div class="mainHead">
+                <div class="mainHeadContent">
+                    <div class="mainHeadContent1">
+                        <h1>Notifications</h1>
+                        <span id="msgNo">3</span>
+                    </div>
+                    <div class="mainHeadContent2">
+                        <span onclick="handleMarkAllRead()">Mark all as read</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mainData">
+                <div id="not1Div1">
+                    <div id="not1DivContent" class="not1DivContent">
+                        <div class="not1DivContent1">
+                            <div class="not1Img">
+                                <div class="not1Img1">
+                                    <img src="https://media.istockphoto.com/id/1336324740/photo/having-fun-at-a-garden-party.webp?b=1&s=170667a&w=0&k=20&c=PilnrwQDx06whymXI3k7nRw7ji7AQlZM1kvG8lCpC0Q="
+                                        alt="no img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="not1DivContent2">
+                            <div class="not1DivMsg"><span style="color: black; font-weight: 700;">Mark Webber
+                                </span>reacted to your recent post <span
+                                    style="color: rgb(73, 72, 72); font-weight: 600;">
+                                    My first tournament today!
+                                </span></div>
+                            <div class="not1DivTime">1m ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="not1Div2" class="not1Div">
+                    <div id="not1DivContent2" class="not1DivContent">
+                        <div class="not1DivContent1">
+                            <div class="not1Img">
+                                <div class="not1Img1">
+                                    <img src="https://cdn.images.express.co.uk/img/dynamic/12/590x/Main-471989.jpg?r=1686998680160"
+                                        alt="no img">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="not1DivContent2">
+                            <div class="not1DivMsg"><span style="color: black; font-weight: 700;">Angela Grey
+                                </span>followed you</div>
+                            <div class="not1DivTime">5m ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="not1Div">
+                <div id="not1DivContent3" class="not1DivContent">
+                    <div class="not1DivContent1">
+                        <div class="not1Img">
+                            <div class="not1Img1">
+                                <img src="https://media.istockphoto.com/id/1355051102/photo/indoor-portrait-of-cheerful-businessman-in-corporate-attire.webp?b=1&s=170667a&w=0&k=20&c=yrNCYIdQqzKAPrTw7CIySZSQs0b5tOJIhC7rVig2aQw="
+                                    alt="no img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="not1DivContent2">
+                        <div class="not1DivMsg"><span style="color: black; font-weight: 700;">Jacob Thompson
+                            </span>has joined your group<span style="color:rgb(12,50,110); font-weight: 600;">
+                                Chess Club
+                            </span></div>
+                        <div class="not1DivTime">5m ago</div>
+                    </div>
+                </div>
+            </div>
+            <div class="not1Div">
+                <div style="background-color: white;" class="not1DivContent">
+                    <div class="not1DivContent1">
+                        <div class="not1Img">
+                            <div class="not1Img1">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-sE_0Frso0bCbNAts27BUqvu3LBAquRyS7gEgAXKtQA&s"
+                                    alt="no img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="not1DivContent2">
+                        <div class="not1DivMsg"><span style="color: black; font-weight: 700;">Rizky Hasanuddin
+                            </span>sent you a private message</div>
+                        <div class="not1DivTime">5 days ago</div>
+                    </div>
+                </div>
+            </div>
+            <div class="not1Div">
+                <div id="not1DivContent4" style="background-color: white;" class="not1DivContent">
+                    <div  class="not1DivContent1">
+                        <div class="not1Img">
+                            <div class="not1Img1">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jessica_Ennis_%28May_2010%29_cropped.jpg/180px-Jessica_Ennis_%28May_2010%29_cropped.jpg"
+                                    alt="no img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="not1DivContent2">
+                        <div class="not1DivMsg"><span style="color: black; font-weight: 700;">Kimberly Smith
+                            </span>commented on your picture</div>
+                        <div class="not1DivTime">1 week ago</div>
+                    </div>
+                </div>
+            </div>
+            <div id="not4MsgDiv" class="not4Msg">
+                <div  class="not4MsgDiv">
+                    <p>Hello! thanks for setting up the Chess Club. I've been a member for a weeks now and I'm already
+                        having lots of fun and improving my game.</p>
+                </div>
+            </div>
+            <div class="not1Div">
+                <div style="background-color: white;" class="not1DivContent">
+                    <div class="not1DivContent1">
+                        <div class="not1Img">
+                            <div class="not1Img1">
+                                <img src="https://as1.ftcdn.net/v2/jpg/05/67/48/42/1000_F_567484258_RBpKSowSsBPdWg84C2TNVXrGEYHSwM4m.jpg"
+                                    alt="no img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="not1DivContent2">
+                        <div class="not1DivMsg"><span style="color: black; font-weight: 700;">Nathan Peterson
+                            </span>reacted to your recent post <span style="color: rgb(73, 72, 72); font-weight: 600;">
+                                5-end games
+                            </span></div>
+                        <div class="not1DivTime">2 weeks ago</div>
+                    </div>
+                </div>
+            </div>
+            <div class="not1Div">
+                <div style="background-color: white" class="not1DivContent">
+                    <div class="not1DivContent1">
+                        <div class="not1Img">
+                            <div class="not1Img1">
+                                <img src="https://st.depositphotos.com/1857171/60466/i/450/depositphotos_604662112-stock-photo-portrait-young-adult-woman-wearing.jpg"
+                                    alt="no img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="not1DivContent2">
+                        <div class="not1DivMsg"><span style="color: black; font-weight: 700;">Anna Kim
+                            </span>left the group <span style="color: rgb(12,50,110); font-weight: 600;">
+                                Chess Club
+                            </span></div>
+                        <div class="not1DivTime">2 weeks ago</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

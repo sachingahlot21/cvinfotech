@@ -1,15 +1,6 @@
 
-console.log("started")
-
-console.log(userDetailsList)
-console.log("ending")
-console.log("ending")
-// userDetailsList.push('no')
-// userDetailsList.push('no')
-
-console.log(userDetailsList)
-
 function handleForm(event) {
+    event.preventDefault
     const phonenumber = document.getElementById('pnumber').value;
     const fullname = document.getElementById('fullname').value;
     const email = document.getElementById('email').value;
@@ -55,28 +46,16 @@ function handleForm(event) {
         console.log("un success!")
         return false
     }
+
     else {
-        // const userDetails = {
-        //     'FullName': fullname,
-        //     "PhoneNo ": phonenumber,
-        //     'E-Mail': email,
-        //     'Selected Subject': selectedSubject,
-        //     'Project Brief': brief
-        // }
-        // let formData = new FormData(form)
-        // let formObj = {}
-        // formData.forEach(
-        //     function (value , key) {
-        //         formObj[key] = value;
-        //     }
-        // );
-        // console.log(formObj)
-        // alert("Successfully Submited !")
-        event.preventDefault()
 
-        var userDetailsList = [];
-        // const userDetailsList = Array.isArray(userDetailsList) ? userDetailsList : [userDetailsList];
-
+        var userDetailsList;
+        if (localStorage.getItem('userDetailsList') == null) {
+            userDetailsList = []
+        }
+        else {
+            userDetailsList = JSON.parse(localStorage.getItem('userDetailsList'))
+        }
         const userDetails = {
             id: Date.now(),
             FullName: fullname,
@@ -85,20 +64,14 @@ function handleForm(event) {
             Selected_Subject: selectedSubject,
             Project_Brief: brief
         }
+        userDetailsList.push(userDetails)
 
-        const userDetailsJSON = userDetails;
-        userDetailsList.push(userDetailsJSON)
-        console.log(userDetailsList)
         localStorage.setItem("userDetailsList", JSON.stringify(userDetailsList))
-        console.log(userDetailsList[0])
 
-        //window.location.href = "http://127.0.0.1:5500/cvinfotech/cusbackend/index.html";
-        //window.location.replace("http://127.0.0.1:5500/cvinfotech/cusbackend/index.html");
     }
-}
+    window.location.href="http://127.0.0.1:5500/cvinfotech/cusbackend/index.html";
 
-localStorage.clear();
-// console.log(typeof (userDetailsList))
+}
 
 function handleNavlist() {
     const btn = document.getElementById('menuiconbtn')

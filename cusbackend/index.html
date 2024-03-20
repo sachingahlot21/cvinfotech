@@ -9,13 +9,52 @@
 </head>
 
 <body>
-    <div>
+    <div class="mainDiv">
         <h1 class="userDetailsHeading">CV INFOTECH USER DETAILS</h1>
         <div class="userDetailsDiv" id="userDetailsDiv">
+            <div class="pageHeading">
+                <div class="pageHeading1">ID</div>
+                <div class="pageHeading2">NAME</div>
+                <div class="pageHeading3">E-MAIL</div>
+                <div class="pageHeading4">SUBJECT</div>
+                <div class="pageHeading5">PROJECT</div>
+            </div>
             <!-- <div id="cardDiv">
                 <div id="nameDiv">NAME:<span id="nameDivSpan"></span></div>
                 <div id="idDiv">ID:<span id="idDivSpan"></span></div>
             </div> -->
+            <div id="editModal" class="editModal">
+                <button onclick="handleModal()">CLOSE</button>
+                <div class="formDiv">
+
+                    <form onsubmit="handleEditedData(event)" id="formTwo">
+                        <div>
+                            NAME: <input id="fullname2" name="fullname2" type="text" placeholder="Full Name"></div>
+                        <div>
+                            E-MAIL: <input id="email2" name="email2" type="text" placeholder="E-Mail"></div>
+                        <!-- <input type="text" placeholder="Select Subject"> -->
+                        <div>
+                            SELECT SUBJECTS: <select name="subjects2" id="subjects2" form="contactUsform">
+                                <option value="selectsubjects">Select Subject</option>
+                                <option value="mobile_app_development">Mobile App Development</option>
+                                <option value="app_development">App Development</option>
+                                <option value="designing">Designing</option>
+                                <option value="digital_marketing">Digital Marketing</option>
+                            </select>
+                        </div>
+                        <!-- <div>
+                            PHONE NO:<input name="phoneno2" id="pnumber2" type="number" placeholder="Phone Number">
+                        </div> -->
+                        <div class="briefdiv2">
+                            PROJECT: <textarea id="brief2" cols="40" rows="10"
+                                style="font-size: 18px; font-family: sans-serif;letter-spacing: 1px; border-radius: 8px; padding-top: 12px;color: black; padding-left: 12px;"
+                                class="briefmsg" aria-invalid="false" placeholder="project briefing"
+                                name="your-message"></textarea>
+                        </div>
+                        <button type="submit">SAVE</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
