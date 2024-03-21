@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.detailDiv {
+    width: 230px;
+    height: 300px;
+    background-color: white;
+    box-shadow: -1px 0px 14px -1px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+
+}
+.detailDiv1{
+    width: 100%;
+    height: 40%;
+    border-radius: 20px;
+}
+.detailDiv1 > img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+.detailDiv2{
+    width: 100%;
+    height: 60%;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.detailDiv2 >h1{
+   font-size: large;
+   margin-bottom: 20px;
+}
+.detailDiv2 > h2,h3,h4{
+    font-size: small;
+    margin-bottom: 10px;
+ }
+ 
+
+.mainContainer {
+    width: 100vw;
+    height: auto;
+    background-color: rgb(250, 250, 250);
+}
+
+.headDiv {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+.headDiv>p {
+    width: 20%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 600;
+}
+
+.mainDiv {
+    width: 100%;
+    height: auto;
+
+}
+
+.btnsDiv {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnsDiv1 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnsDiv1>input {
+    width: 80%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    box-shadow: -1px 0px 14px -1px rgba(0, 0, 0, 0.75);
+}
+
+.btnsDiv2 {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnsDiv2>select {
+    width: 80%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    box-shadow: -1px 0px 14px -1px rgba(0, 0, 0, 0.75);
+}
+
+.mainContent {
+    width: 100%;
+    height: auto;
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
