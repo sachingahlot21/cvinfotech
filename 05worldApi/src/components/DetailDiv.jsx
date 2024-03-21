@@ -10,7 +10,7 @@ function DetailDiv({ name, population, region, capital, flag }) {
             </div>
             <div className='detailDiv2'>
                 <h1>{name}</h1>
-                <h2>Population:{population}</h2>
+                <h2>Population:{population.toLocaleString()}</h2>
                 <h3>Region:{region}</h3>
                 <h4>Capital:{capital}</h4>
             </div>
